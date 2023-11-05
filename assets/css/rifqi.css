@@ -197,11 +197,6 @@ h6,
   border: 2px solid #fff;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
 
 @media (max-width: 768px) {
   #hero h1 {
