@@ -7,7 +7,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  color: #ffffff;
 }
 
 a {
@@ -86,7 +86,7 @@ h6,
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: rgb(44, 35, 44);
   background-size: cover;
   position: relative;
   margin-top: -80px;
@@ -94,19 +94,6 @@ h6,
   /* countdown */
 }
 
-#hero .hero-container {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  padding: 0 15px;
-}
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -239,6 +226,8 @@ h6,
     line-height: 38px;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Sections General
