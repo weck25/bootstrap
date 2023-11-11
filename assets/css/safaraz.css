@@ -38,7 +38,9 @@ h6,
   padding: 20px 0;
   position: relative;
   z-index: 10;
+  background-color: black;
 }
+
 
 #header .logo h1 {
   font-size: 36px;
@@ -86,7 +88,7 @@ h6,
 #hero {
   width: 100%;
   height: 100vh;
-  background:  url("../img/59+\ Tumblr\ wallpapers\ ·①\ Download\ free\ \ HD\ backgrounds\ for\ desktop\,\ mobile\,\ laptop\ in\ any\ resolution_\ desktop\,\ Android\,\ iPhone\,\ iPad\ 1920x1080\,\ 1280x1024\,\ 800x600\,\ 1680x1050\ etc_\ WallpaperTag.jpg");
+  background:  url("../img/tech-city-1.jpg");
   background-size: cover;
   position: relative;
   margin-top: -80px;
@@ -245,8 +247,17 @@ h6,
 section {
   padding: 60px 0;
 }
+.container-nav{
+  display: flex;
+  flex-direction: row;
+}
+
 .main-custom {
   margin-top: 20px;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .section-bg {
@@ -422,4 +433,18 @@ section {
 
 #footer .credits a {
   color: #72a8bf;
+}
+.social-links{
+  display: flex;
+  justify-content: center;
+}
+.img-socials{
+  width: 20px;
+  height: 20px;
+}
+.div-container-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
