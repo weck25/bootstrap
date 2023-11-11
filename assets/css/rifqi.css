@@ -222,7 +222,20 @@ h6,
   }
 }
 
+.code-card {
+  position: relative; /* Untuk positioning garis tab */
+}
 
+.code-card::before {
+  content: '';
+  display: block;
+  height: 4px;
+  background-color: #3b82f6; /* Sesuaikan warna dengan gambar */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 
 /*--------------------------------------------------------------
 # Sections General

@@ -19,6 +19,7 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/themes/prism-okaidia.css" rel="stylesheet" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/rifqi.css" rel="stylesheet">
@@ -39,7 +40,7 @@
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>WeBuild</span></a></h1>
+        <h1 class="text-light"><a href="index.html"><span>Portofolio</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -87,32 +88,150 @@
               <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="https://placehold.co/400x400" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Tipe data</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                    Launch demo modal
+                  </button>
                 </div>
               </div>
             </div>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card bg-dark text-white">
+          <div class="card-header bg-primary" style="padding: 0.25rem;"></div>
+          <div class="card-body" style="padding: 0;">
+            <pre class="m-0"><code class="language-javascript">
+        // Kode JavaScript Anda di sini
+        let bio = {
+          "nama":"rifqi"
+          };
+          let a = null;
+          let b = undefined;
+          let c = ["bmw","mecedes","honda"];
+          
+          console.log(bio);
+          console.log(a);
+          
+          console.log(c);
+            </code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <!--modal end-->
             <div class="col-sm" style="color: black;">
               <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="https://placehold.co/400x400" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Conditional Statement</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#conditionalstatement">
+                    Launch demo modal
+                  </button>
                 </div>
               </div>
             </div>
+             <!-- Modal -->
+<div class="modal fade" id="conditionalstatement" tabindex="-1" role="dialog" aria-labelledby="conditionalstatementTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card bg-dark text-white">
+          <div class="card-header bg-primary" style="padding: 0.25rem;"></div>
+          <div class="card-body" style="padding: 0;">
+            <pre class="m-0"><code class="language-javascript">
+        // Kode JavaScript Anda di sini
+        let statement = true ;
+
+function Arlabs(statement){
+    if (statement) {
+        console.log("okay, time to break");
+
+        const time = 3000;
+        setTimeout(function(){
+            console.log("okay back to class");
+        }, time); 
+    } else {
+        console.log("not this at the moment")
+    }
+}
+Arlabs(statement);
+            </code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <!--modal end-->
             <div class="col-sm" style="color: black;">
               <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="https://placehold.co/400x400" alt="Card image cap">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Aray</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aray">
+                    Launch demo modal
+                  </button>
                 </div>
               </div>
             </div>
+             <!-- Modal -->
+<div class="modal fade" id="aray" tabindex="-1" role="dialog" aria-labelledby="aray" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card bg-dark text-white">
+          <div class="card-header bg-primary" style="padding: 0.25rem;"></div>
+          <div class="card-body" style="padding: 0;">
+            <pre class="m-0"><code class="language-javascript">
+        // Kode JavaScript Anda di sini
+        let angka = ['a','b','c','d'];
+for (let i=0;i<'angka.length;i++){
+    if (angka[i]) {
+        console.log('hallo '+angka[i]);
+    }
+    };
+angka.forEach(function(angka){
+    console.log('hallo '+angka);
+    
+});
+
+            </code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <!--modal end-->
           </div>
         </div>
         </div>
@@ -138,6 +257,7 @@
   </footer><!-- End #footer -->
 
   <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.25.0/prism.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
