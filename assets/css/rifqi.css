@@ -5,8 +5,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+  font-family: RetroComputer;
+  src: url(../fonts/retro_computer_personal_use.woff);
+}
+@font-face {
+  font-family: pixel;
+  src: url(../fonts/Pixellari.woff);
+}
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: pixel;
   color: #ffffff;
 }
 
@@ -27,7 +35,7 @@ h4,
 h5,
 h6,
 .font-primary {
-  font-family: "Raleway", sans-serif;
+  font-family: RetroComputer;
 }
 
 /*--------------------------------------------------------------
@@ -85,7 +93,6 @@ h6,
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
   background: rgb(44, 35, 44);
   background-size: cover;
   position: relative;
@@ -240,6 +247,14 @@ h6,
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+.card-img-top {
+  max-height: 200px; /* Set the maximum height for the images */
+  min-height: 200px;
+  object-fit: cover; /* This makes the image cover the area, useful if the images have different aspect ratios */
+}
+.card.h-100 {
+  min-height: 400px; /* Set the minimum height for the cards */
+}
 section {
   padding: 60px 0;
 }
