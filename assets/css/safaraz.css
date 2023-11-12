@@ -435,6 +435,8 @@ section {
   color: #72a8bf;
 }
 .social-links{
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   justify-content: center;
 }
@@ -445,6 +447,14 @@ section {
 .div-container-flex{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 
+}
+.row {
+  margin-bottom: 10px;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
